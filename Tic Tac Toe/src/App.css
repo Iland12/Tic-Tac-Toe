@@ -111,3 +111,40 @@
   font-size: 0.8rem;
   opacity: 0.7;
 }
+
+/* Responsive layout */
+@media (max-width: 630px) {
+  * {
+    font-size: 0.9rem;
+  }
+  .game-card {
+    max-width: 35rem;
+  }
+  .game-main {
+    margin-top: 2rem;
+  }
+  .game-reset {
+    /* font-size: 1rem; */
+  }
+}
+
+@media (max-width: 390px) {
+  * {
+    font-size: 0.9rem;
+  }
+  .game-card {
+    max-width: 23rem;
+    height: 70vh;
+    padding-bottom: 10px;
+  }
+  .game-main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: center;
+    gap: 1rem;
+  }
+  .game-reset {
+    /* font-size: 1rem; */
+  }
+}
